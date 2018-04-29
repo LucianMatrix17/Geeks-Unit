@@ -1,31 +1,32 @@
 .navbar{
 
-	background: black;
+	background: transparent;
 }
 
 .nav-link{
 
 	color: white;
 	cursor: pointer;
-	font-family: 'Signika', sans-serif;
+	font-family: 'Gugi', cursive;
+	font-size: 20px;
 }
 
 .nav-link:hover{
 
-	color: green;
+	color: grey;
 	
 }
 
 #brand{
 
 	color: white;
-	font-family: 'Lobster', cursive;
-	font-size: 20px;
+	font-family: 'Gugi', cursive;
+	font-size: 35px;
 }
 
 #brand:hover{
 
-	color: green;
+	color: grey;
 }
 
 .navbar-collapse{
@@ -35,13 +36,64 @@
   background:#fff !important;
 }
 
-header{
- 	position: relative;
-	background-image: url('../imag/headerback.jpg');
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("./img/backimg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+header.masthead h1 {
+  font-size: 65px;
+  font-family: 'Gugi', cursive;
+  
+}
+
+  header.masthead p {
+    font-size: 18px;
+  }
+
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  
+
+
+  
+
+
+
+/*header{
+ position: relative;
+ background-image: url('headerback2.jpg');
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
-}
+}*/
+
+/*body{
+
+position: relative;
+ background-image: url('headerback2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+}*/
 
 
 
