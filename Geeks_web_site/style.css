@@ -1,0 +1,47 @@
+.navbar{
+
+	background: black;
+}
+
+.nav-link{
+
+	color: white;
+	cursor: pointer;
+	font-family: 'Signika', sans-serif;
+}
+
+.nav-link:hover{
+
+	color: green;
+	
+}
+
+#brand{
+
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+
+#brand:hover{
+
+	color: green;
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+header{
+ 	position: relative;
+	background-image: url('../imag/headerback.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+
+
