@@ -1,0 +1,231 @@
+/*main nav bar styling*/
+.navbar{
+
+	background: #10828C;
+}
+
+.nav-link{
+
+	color: white;
+	cursor: pointer;
+	font-family: 'Gugi', cursive;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+
+	color: grey;
+	
+}
+
+#brand{
+
+	color: white;
+	font-family: 'Gugi', cursive;
+	font-size: 35px;
+}
+
+#brand:hover{
+
+	color: grey;
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("./img/backimg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+header.masthead h1 {
+  font-size: 60px;
+  font-family: 'Gugi', cursive;
+  
+}
+
+  header.masthead p {
+    font-size: 18px;
+  }
+
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /*about us styling*/
+
+.row{
+ margin:  30px;
+ padding: 16px;
+ position: relative;
+}
+
+#about-img{
+ 	height: 100%;
+    width: 100%;
+    
+}
+
+.row .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.row .desc h3{
+ color: #10828C;
+}
+.row .desc p{
+ line-height:2;
+ color:#888;
+}
+
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: #10828C;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 20px;
+  float:left;
+  margin-left:60px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+#hoursLabel{
+
+  margin-left: 6px;
+  margin-top:  10PX;
+  font-family: 'Gugi', cursive;
+}
+
+#projLabel{
+
+  margin-left: 6px;
+  margin-top:  10PX;
+  font-family: 'Gugi', cursive;
+}
+
+#langLabel{
+
+  margin-left: 6px;
+  margin-top:  10PX;
+  font-family: 'Gugi', cursive;
+}
+
+
+#middlePage{
+
+  height: 500px;
+  margin-top: 100px;
+}
+
+#teamLabel{
+
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  
+}
+
+#locLabel{
+
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  
+}
+
+
+/*Member Cards*/
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #10828C;
+}
+
+ #map {
+        height: 500px;
+        width: 100%;
+       }
+
+
+
+  
+
+
+
+
+
+
+

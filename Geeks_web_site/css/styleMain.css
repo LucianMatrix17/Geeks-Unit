@@ -1,0 +1,195 @@
+/*main nav bar styling*/
+.navbar{
+
+	background: transparent;
+}
+
+.nav-link{
+
+	color: white;
+	cursor: pointer;
+	font-family: 'Gugi', cursive;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+
+	color: grey;
+	
+}
+
+#brand{
+
+	color: white;
+	font-family: 'Gugi', cursive;
+	font-size: 35px;
+}
+
+#brand:hover{
+
+	color: grey;
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("./img/backimg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+header.masthead h1 {
+  font-size: 60px;
+  font-family: 'Gugi', cursive;
+  
+}
+
+  header.masthead p {
+    font-size: 18px;
+  }
+
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /*about us styling*/
+
+.row{
+ margin:  30px;
+ padding: 16px;
+ position: relative;
+}
+
+#about-img{
+ 	height: 100%;
+    width: 100%;
+    
+}
+
+.row .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.row .desc h3{
+ color: #10828C;
+}
+.row .desc p{
+ line-height:2;
+ color:#888;
+}
+
+/*counting bubbles*/
+
+/*#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin-left:60px;
+}
+
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}*/
+
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+  float:left;
+  margin:20px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  font-color: black;
+}
+
+
+
+
+  
+
+
+
+/*header{
+ position: relative;
+ background-image: url('headerback2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}*/
+
+/*body{
+
+position: relative;
+ background-image: url('headerback2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+}*/
+
+
+

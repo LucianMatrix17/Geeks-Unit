@@ -1,3 +1,4 @@
+/*main nav bar styling*/
 .navbar{
 
 	background: transparent;
@@ -54,7 +55,7 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-family: 'Gugi', cursive;
   
 }
@@ -70,30 +71,88 @@ header.masthead h1 {
     padding-bottom: 0;
   }
 
-  
+  /*about us styling*/
 
-
-  
-
-
-
-/*header{
+.row{
+ margin:  30px;
+ padding: 16px;
  position: relative;
- background-image: url('headerback2.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
+}
+
+#about-img{
+ 	height: 100%;
+    width: 100%;
+    
+}
+
+.row .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.row .desc h3{
+ color: #10828C;
+}
+.row .desc p{
+ line-height:2;
+ color:#888;
+}
+
+/*counting bubbles*/
+
+/*#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin-left:60px;
+}
+
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
 }*/
 
-/*body{
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
 
-position: relative;
- background-image: url('headerback2.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
 
-}*/
+.linker
+{
+  font-size : 20px;
+  font-color: black;
+}
+
+
+
+
+  
+
+
+
+
 
 
 
