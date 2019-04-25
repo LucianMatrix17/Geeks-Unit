@@ -1,2 +1,2 @@
 # Geeks Unit
-Geeks Unit Society Website
+Geeks Unit Progarming club  Website, in pure html snd css.
