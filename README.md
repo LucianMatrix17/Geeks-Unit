@@ -1,7 +1,4 @@
 # Geeks Unit
 
-Geeks Unit Progarming club Website:https://geeksunit.herokuapp.com/
+Geeks Unit Progarming club site:
 
-- HTML & CSS
-
-* BOOTSTRAP
